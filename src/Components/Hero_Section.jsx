@@ -51,7 +51,7 @@ const GithubView = () => {
             </div>
             <div>
               <img
-                src="assets/Images/Hero_img.png"
+                src="../assets/Images/Hero_img.png"
                 alt=""
                 className="hero_img"
               />

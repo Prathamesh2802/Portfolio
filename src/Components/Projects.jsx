@@ -12,7 +12,7 @@ function Project() {
           <div className="card">
             <div className="flex flex-vertical justify-content-center card-data">
               <img
-                src="assets/Images/SynchieNotes.png"
+                src="../assets/Images/SynchieNotes.png"
                 className="project_img"
               ></img>
               <h3 style={Variables.textCenter}>Synchie Notes</h3>
@@ -44,7 +44,7 @@ function Project() {
             </div>
             <div className="flex flex-vertical justify-content-center card-data">
               <img
-                src="assets/Images/Portfolio.png"
+                src="../assets/Images/Portfolio.png"
                 className="project_img"
               ></img>
               <h3 style={Variables.textCenter}>Portfolio</h3>
@@ -69,7 +69,7 @@ function Project() {
             </div>
             <div className="flex flex-vertical justify-content-center card-data">
               <img
-                src="assets/Images/ResumeBuilder.png"
+                src="../assets/Images/ResumeBuilder.png"
                 className="project_img"
               ></img>
               <h3 style={Variables.textCenter}>Resume Builder</h3>
