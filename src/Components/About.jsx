@@ -62,7 +62,7 @@ function About() {
             </div>
             <div>
               <img
-                src="src/assets/Images/Profile.svg"
+                src="/src/assets/Images/Profile.svg"
                 alt=""
                 className="hero_img"
               />
