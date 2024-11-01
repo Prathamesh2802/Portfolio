@@ -1,4 +1,4 @@
-import profile from "../assets/Images/Profile.svg"
+import aboutimg from "../assets/Images/profile.svg"
 
 function About() {
   return (
@@ -64,7 +64,7 @@ function About() {
             </div>
             <div>
               <img
-                src={profile}
+                src={aboutimg}
                 alt=""
                 className="hero_img"
               />
