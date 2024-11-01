@@ -28,7 +28,7 @@ function WorkExperience() {
             </div>
             <div className="img-center">
               <img
-                src="src/assets/Images/KCS.png"
+                src="assets/Images/KCS.png"
                 alt=""
                 className="work_img"
               />
