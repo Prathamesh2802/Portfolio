@@ -1,3 +1,5 @@
+import HeroImg from "../assets/Images/Hero_img.png"
+
 function Hero_Section() {
   const projectsection = () => {
     const project = document.getElementById("projectid");
@@ -51,7 +53,7 @@ const GithubView = () => {
             </div>
             <div>
               <img
-                src="../assets/Images/Hero_img.png"
+                src={HeroImg}
                 alt=""
                 className="hero_img"
               />

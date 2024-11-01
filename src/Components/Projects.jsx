@@ -1,4 +1,7 @@
 import Variables from "../Static/Variables";
+import SynchieNoteImg from "../assets/Images/SynchieNotes.png"
+import PortfolioImg from "../assets/Images/Portfolio.png"
+import ResumeBuilderImg from "../assets/Images/ResumeBuilder.png"
 
 function Project() {
   return (
@@ -12,7 +15,7 @@ function Project() {
           <div className="card">
             <div className="flex flex-vertical justify-content-center card-data">
               <img
-                src="../assets/Images/SynchieNotes.png"
+                src={SynchieNoteImg}
                 className="project_img"
               ></img>
               <h3 style={Variables.textCenter}>Synchie Notes</h3>
@@ -44,7 +47,7 @@ function Project() {
             </div>
             <div className="flex flex-vertical justify-content-center card-data">
               <img
-                src="../assets/Images/Portfolio.png"
+                src={PortfolioImg}
                 className="project_img"
               ></img>
               <h3 style={Variables.textCenter}>Portfolio</h3>
@@ -69,7 +72,7 @@ function Project() {
             </div>
             <div className="flex flex-vertical justify-content-center card-data">
               <img
-                src="../assets/Images/ResumeBuilder.png"
+                src={ResumeBuilderImg}
                 className="project_img"
               ></img>
               <h3 style={Variables.textCenter}>Resume Builder</h3>

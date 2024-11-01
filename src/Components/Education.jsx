@@ -1,7 +1,11 @@
+import EnginneringCollege from "../assets/Images/Diems.png"
+import GPS from "../assets/Images/GPS.png"
+import NES from "../assets/Images/NES.jpg"
+
 function Education() {
   const Education_Data = [
     {
-      College_Link: "../assets/Images/Diems.png",
+      College_Link: EnginneringCollege,
       College_Name:
         "Deogiri Institute of Engineering and Management Studies, Aurangabad, Maharashtra",
       College_Department: "B.Tech in Electronics and Telecommunications",
@@ -9,14 +13,14 @@ function Education() {
       College_Percentage: "8.80 CGPA",
     },
     {
-      College_Link: "../assets/Images/GPS.png",
+      College_Link: GPS,
       College_Name: "Government Polytechnic, Solapur, Maharashtra",
       College_Department: "Diploma/Polytechnic in Information Technology",
       College_Year: "2017-2020",
       College_Percentage: "84%",
     },
     {
-      College_Link: "../assets/Images/NES.jpg",
+      College_Link: NES,
       College_Name: "Narendra English School, Aurangabad, Maharashtra",
       College_Department: "10th SSC",
       College_Year: "2016-2017",

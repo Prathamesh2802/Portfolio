@@ -1,3 +1,5 @@
+import KcsImage from "../assets/Images/KCS.png"
+
 function WorkExperience() {
   return (
     <>
@@ -28,7 +30,7 @@ function WorkExperience() {
             </div>
             <div className="img-center">
               <img
-                src="assets/Images/KCS.png"
+                src={KcsImage}
                 alt=""
                 className="work_img"
               />
