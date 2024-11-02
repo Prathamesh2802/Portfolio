@@ -269,6 +269,8 @@ body.dark .support a {
 
   .hero-btn {
     flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1rem;
   }
   .project-title,
   .about-title,
