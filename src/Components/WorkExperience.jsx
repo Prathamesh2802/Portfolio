@@ -12,7 +12,7 @@ function WorkExperience() {
           <div className="flex about-content">
             <div className="w-50 flex flex-vertical">
                 <h2>KCSSOFT</h2>
-                <div className="flex justify-content-between">
+                <div className="info-data">
                 <small>10/23 - Today</small>
                 <small>Ch.SambhajiNagar (Aurangabad)</small>
                 </div>

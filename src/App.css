@@ -80,6 +80,8 @@ body.dark .support a {
     font-weight: bold;
   }
 
+
+
  .large-input.dark
  {
   background-color: #292c35;
@@ -264,7 +266,7 @@ body.dark .support a {
   .work_img
   {
     max-height: 350px;
-    max-width: 400px;
+    max-width: 350px;
   }
 
   .hero-btn {
@@ -512,4 +514,10 @@ a {
   justify-content: center;
   color: white;
   
+}
+
+.info-data
+{
+  display: flex;
+  justify-content: space-between;
 }
