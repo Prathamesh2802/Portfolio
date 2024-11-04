@@ -60,7 +60,7 @@ function Project() {
               </p>
               <div className="btn-flex">
                 <a
-                  href="https://github.com/Prathamesh2802/Resume_Builder"
+                  href="https://github.com/Prathamesh2802/Portfolio"
                   target="blank"
                 >
                   <button className="btn">

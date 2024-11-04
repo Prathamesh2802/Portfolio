@@ -273,6 +273,7 @@ body.dark .support a {
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 1rem;
+    justify-content: center;
   }
   .project-title,
   .about-title,
