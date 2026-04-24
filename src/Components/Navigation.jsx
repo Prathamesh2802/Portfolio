@@ -22,7 +22,14 @@ function Navigation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["navid", "about","workexp", "projectid", "edu", "contact"];
+      const sections = [
+        "navid",
+        "about",
+        "workexp",
+        "projectid",
+        "edu",
+        "contact",
+      ];
       const scrollPosition = window.scrollY;
 
       sections.forEach((sectionId) => {
@@ -90,7 +97,6 @@ function Navigation() {
       document.querySelectorAll(".large-input").forEach((card) => {
         card.classList.add("dark");
       });
-
     } else {
       document.querySelectorAll("hr").forEach((hrs) => {
         hrs.classList.remove("dark");
@@ -110,7 +116,6 @@ function Navigation() {
       document.querySelectorAll(".large-input").forEach((card) => {
         card.classList.remove("dark");
       });
-
     }
   }, [checkboxes]);
 
@@ -141,7 +146,7 @@ function Navigation() {
                   className={activeMenuItem === "workexp" ? "active" : ""}
                   onClick={() => handleMenuItemClick("workexp")}
                 >
-                 Work Experience
+                  Work Experience
                 </li>
                 <li
                   className={activeMenuItem === "projectid" ? "active" : ""}
@@ -232,11 +237,11 @@ function Navigation() {
                 About Me
               </li>
               <li
-                  className={activeMenuItem === "workexp" ? "active" : ""}
-                  onClick={() => handleMenuItemClick("workexp")}
-                >
-                 Work Experience
-                </li>
+                className={activeMenuItem === "workexp" ? "active" : ""}
+                onClick={() => handleMenuItemClick("workexp")}
+              >
+                Work Experience
+              </li>
               <li
                 className={activeMenuItem === "projectid" ? "active" : ""}
                 onClick={() => handleMenuItemClick("projectid")}

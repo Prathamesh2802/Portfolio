@@ -1,7 +1,8 @@
 import Variables from "../Static/Variables";
-import SynchieNoteImg from "../assets/Images/SynchieNotes.png"
-import PortfolioImg from "../assets/Images/Portfolio.png"
-import ResumeBuilderImg from "../assets/Images/ResumeBuilder.png"
+import SynchieNoteImg from "../assets/Images/SynchieNotes.png";
+import PortfolioImg from "../assets/Images/Portfolio.png";
+import ResumeBuilderImg from "../assets/Images/ResumeBuilder.png";
+import SynchieChat from "../assets/Images/Synchie-Chat.png";
 
 function Project() {
   return (
@@ -14,15 +15,42 @@ function Project() {
           </div>
           <div className="card">
             <div className="flex flex-vertical justify-content-center card-data">
-              <img
-                src={SynchieNoteImg}
-                className="project_img"
-              ></img>
+              <img src={SynchieChat} className="project_img"></img>
+              <h3 style={Variables.textCenter}>Synchie Chat</h3>
+              <p>
+                I Developed a full-stack real-time chat app using React,
+                Express.js, and MongoDB, powered by Socket.IO for live
+                communication. Includes authentication, friend system, blocking
+                logic, and a responsive dark mode UI built with Tailwind CSS and
+                DaisyUI.
+              </p>
+              <div className="btn-flex">
+                <a
+                  href="https://github.com/Prathamesh2802/Synchie_Chat"
+                  target="blank"
+                >
+                  <button className="btn">
+                    Code &nbsp;
+                    <i className="fa fa-code"></i>
+                  </button>
+                </a>
+                <a href="https://synchie-chat.pinu.live" target="blank">
+                  <button className="btn">
+                    Live &nbsp;
+                    <i className="fa fa-link"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div className="flex flex-vertical justify-content-center card-data">
+              <img src={SynchieNoteImg} className="project_img"></img>
               <h3 style={Variables.textCenter}>Synchie Notes</h3>
               <p>
-              I built SynchieNotes using Bootstrap, MongoDB, Express, and Redis. Users can register and log in, edit, view, and delete notes.
-              I added Redis to fend off DDoS attacks and a honeypot to catch bot registrations.
-              Users can also update their password and access their profile dashboard.
+                I built SynchieNotes using Bootstrap, MongoDB, Express, and
+                Redis. Users can register and log in, edit, view, and delete
+                notes. I added Redis to fend off DDoS attacks and a honeypot to
+                catch bot registrations. Users can also update their password
+                and access their profile dashboard.
               </p>
               <div className="btn-flex">
                 <a
@@ -34,29 +62,24 @@ function Project() {
                     <i className="fa fa-code"></i>
                   </button>
                 </a>
-                <a
-                  href="https://synchienotes.pinu.live"
-                  target="blank"
-                >
+                {/* <a href="https://synchienotes.pinu.live" target="blank">
                   <button className="btn">
                     Live &nbsp;
                     <i className="fa fa-link"></i>
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="flex flex-vertical justify-content-center card-data">
-              <img
-                src={PortfolioImg}
-                className="project_img"
-              ></img>
+              <img src={PortfolioImg} className="project_img"></img>
               <h3 style={Variables.textCenter}>Portfolio</h3>
               <p>
-              I have Developed Portfolio website to showcase of my work. It features a dark mode,
-               ensuring a comfortable viewing experience in any lighting. The design is fully responsive,
-                adapting smoothly across devices. 
-                I've highlighted my work experience and projects, making the site both professional and engaging. Plus,
-               it's  easy to navigate. 
+                I have Developed Portfolio website to showcase of my work. It
+                features a dark mode, ensuring a comfortable viewing experience
+                in any lighting. The design is fully responsive, adapting
+                smoothly across devices. I&apos;ve highlighted my work
+                experience and projects, making the site both professional and
+                engaging. Plus, it&apos;s easy to navigate.
               </p>
               <div className="btn-flex">
                 <a
@@ -71,10 +94,7 @@ function Project() {
               </div>
             </div>
             <div className="flex flex-vertical justify-content-center card-data">
-              <img
-                src={ResumeBuilderImg}
-                className="project_img"
-              ></img>
+              <img src={ResumeBuilderImg} className="project_img"></img>
               <h3 style={Variables.textCenter}>Resume Builder</h3>
               <p>
                 Developed Resume Builder, a web application using HTML, CSS, and
