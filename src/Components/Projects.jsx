@@ -20,9 +20,9 @@ function Project() {
               <p>
                 I Developed a full-stack real-time chat app using React,
                 Express.js, and MongoDB, powered by Socket.IO for live
-                communication. Includes authentication, friend system, blocking
-                logic, and a responsive dark mode UI built with Tailwind CSS and
-                DaisyUI.
+                communication. Includes authentication (OTP Functionality),
+                friend system, blocking logic, and a responsive dark mode UI
+                built with Tailwind CSS and DaisyUI.
               </p>
               <div className="btn-flex">
                 <a
