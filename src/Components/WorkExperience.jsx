@@ -1,4 +1,5 @@
 import KcsImage from "../assets/Images/KCS.png";
+import alten from "../assets/Images/alten.png";
 
 function WorkExperience() {
   return (
@@ -9,6 +10,51 @@ function WorkExperience() {
             <h2>Work Experience</h2>
             <hr className="hr"></hr>
           </div>
+          <div className="flex about-content">
+            <div className="img-center">
+              <img src={alten} alt="" className="work_img" />
+            </div>
+
+            <div className="w-50 flex flex-vertical">
+              <h2>Alten India</h2>
+              <div className="info-data">
+                <small>07/26 - Present</small>
+                <small>Ch.SambhajiNagar (Aurangabad)</small>
+              </div>
+
+              <p>
+                <ol>
+                  <li>
+                    Worked on SAP ERP applications, supporting business
+                    processes and ensuring smooth application functionality.
+                  </li>
+                  <li>
+                    Resolved customer issues and technical queries by
+                    identifying root causes and implementing effective
+                    solutions.
+                  </li>
+                  <li>
+                    Developed and customized forms based on business
+                    requirements to support efficient data entry and reporting.
+                  </li>
+                  <li>
+                    Worked on application enhancements and maintenance to
+                    improve system performance and functionality.
+                  </li>
+                  <li>
+                    Collaborated with team members and stakeholders to
+                    understand requirements and deliver solutions within defined
+                    timelines.
+                  </li>
+                  <li>
+                    Provided technical support, troubleshot application issues,
+                    and ensured timely resolution of customer-reported problems.
+                  </li>
+                </ol>
+              </p>
+            </div>
+          </div>
+
           <div className="flex about-content">
             <div className="w-50 flex flex-vertical">
               <h2>KCSSOFT</h2>
